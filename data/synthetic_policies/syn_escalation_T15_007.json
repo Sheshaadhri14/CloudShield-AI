@@ -1,0 +1,36 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:Get*",
+          "iam:List*"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Effect": "Allow",
+        "Action": [
+          "datapipeline:CreatePipeline",
+          "datapipeline:ActivatePipeline",
+          "iam:PassRole"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T15",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-088",
+      "user-791",
+      "role-634",
+      "role-303"
+    ]
+  }
+}

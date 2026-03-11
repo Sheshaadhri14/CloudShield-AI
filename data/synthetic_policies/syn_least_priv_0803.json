@@ -1,0 +1,38 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "cloudwatch:GetMetricStatistics",
+          "cloudwatch:ListMetrics"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.1.0.0/16"
+            ]
+          }
+        }
+      },
+      {
+        "Effect": "Deny",
+        "Action": "cloudwatch:Delete*",
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "least_privilege_low",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-357",
+      "role-959",
+      "role-202"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "s3:GetObject",
+          "s3:ListBucket"
+        ],
+        "Resource": "arn:aws:s3:::*",
+        "Principal": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 2,
+    "description": "S3 public read \u2014 violates AWS data protection guidance",
+    "guideline": "AWS Trusted Advisor / AWS Security Hub finding",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-046"
+    ]
+  }
+}

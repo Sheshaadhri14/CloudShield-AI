@@ -1,0 +1,37 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "lambda:*",
+          "kms:*"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.148.0.0/16"
+            ]
+          },
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-933",
+      "user-725",
+      "role-774",
+      "role-398"
+    ]
+  }
+}

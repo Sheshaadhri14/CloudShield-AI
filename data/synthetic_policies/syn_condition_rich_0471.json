@@ -1,0 +1,33 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:AttachUserPolicy"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.198.0.0/16"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-146",
+      "user-097",
+      "role-480",
+      "role-928"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "mitre_T1548",
+      "Effect": "Allow",
+      "Action": [
+        "iam:PassRole",
+        "lambda:InvokeFunction",
+        "lambda:CreateFunction"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

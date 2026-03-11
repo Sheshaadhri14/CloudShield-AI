@@ -1,0 +1,27 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "ec2:RunInstances",
+          "iam:PassRole"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T13",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-960",
+      "user-195",
+      "role-986",
+      "role-760"
+    ]
+  }
+}

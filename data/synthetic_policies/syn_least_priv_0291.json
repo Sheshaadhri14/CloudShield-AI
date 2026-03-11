@@ -1,0 +1,31 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "ec2:DescribeInstances",
+          "ec2:DescribeSecurityGroups"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "least_privilege_low",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-834",
+      "role-627",
+      "role-343"
+    ]
+  }
+}

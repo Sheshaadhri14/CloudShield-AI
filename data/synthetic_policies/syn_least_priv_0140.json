@@ -1,0 +1,41 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "s3:GetObject",
+          "s3:ListBucket"
+        ],
+        "Resource": [
+          "arn:aws:s3:::app-bucket-0004",
+          "arn:aws:s3:::app-bucket-0004/*"
+        ],
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.175.0.0/16"
+            ]
+          }
+        }
+      },
+      {
+        "Effect": "Deny",
+        "Action": "s3:Delete*",
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "least_privilege_low",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-835",
+      "role-707",
+      "role-548"
+    ]
+  }
+}

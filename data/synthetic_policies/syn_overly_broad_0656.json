@@ -1,0 +1,29 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "logs:*",
+          "kms:*",
+          "ec2:*",
+          "sns:*"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "overly_broad_medium",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-211",
+      "user-507",
+      "role-723",
+      "role-753"
+    ]
+  }
+}

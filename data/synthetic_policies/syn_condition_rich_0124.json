@@ -1,0 +1,33 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "sts:AssumeRole"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.71.0.0/16"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-712",
+      "user-467",
+      "role-061",
+      "role-269"
+    ]
+  }
+}

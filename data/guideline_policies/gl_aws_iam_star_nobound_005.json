@@ -1,0 +1,22 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": "iam:*",
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 2,
+    "description": "IAM full access without permission boundary \u2014 escalation risk",
+    "guideline": "AWS Trusted Advisor / AWS Security Hub finding",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-077"
+    ]
+  }
+}

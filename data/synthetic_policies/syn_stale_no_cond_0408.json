@@ -1,0 +1,33 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "kms:List*",
+          "kms:Get*",
+          "kms:Describe*"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.126.0.0/16"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "stale_no_condition",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-637",
+      "role-685"
+    ]
+  }
+}

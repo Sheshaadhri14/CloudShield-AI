@@ -1,0 +1,47 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "SQSWrite0",
+        "Effect": "Allow",
+        "Action": [
+          "sqs:SendMessage",
+          "sqs:ReceiveMessage",
+          "sqs:DeleteMessage"
+        ],
+        "Resource": "arn:aws:sqs::335223630121:*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      },
+      {
+        "Sid": "DenyNonSSL",
+        "Effect": "Deny",
+        "Action": [
+          "sqs:SendMessage",
+          "sqs:ReceiveMessage",
+          "sqs:DeleteMessage"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:SecureTransport": "false"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 0,
+    "description": "Scoped write for sqs with SSL deny",
+    "guideline": "AWS Well-Architected: Protect data in transit",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-085"
+    ]
+  }
+}

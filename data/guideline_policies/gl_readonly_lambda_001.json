@@ -1,0 +1,32 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "LAMBDAReadOnly1",
+        "Effect": "Allow",
+        "Action": [
+          "lambda:ListFunctions",
+          "lambda:GetFunction",
+          "lambda:GetPolicy"
+        ],
+        "Resource": "arn:aws:lambda::209095918079:*",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": "10.88.0.0/16"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 0,
+    "description": "Least-privilege read-only for lambda",
+    "guideline": "AWS Security Best Practice: Grant Least Privilege",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-088"
+    ]
+  }
+}

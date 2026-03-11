@@ -1,0 +1,14 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "rhino_T7",
+      "Effect": "Allow",
+      "Action": [
+        "iam:AttachRolePolicy",
+        "sts:AssumeRole"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

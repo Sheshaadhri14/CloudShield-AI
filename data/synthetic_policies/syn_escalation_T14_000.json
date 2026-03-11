@@ -1,0 +1,35 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:Get*",
+          "iam:List*"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Effect": "Allow",
+        "Action": [
+          "cloudformation:CreateStack",
+          "iam:PassRole"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T14",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-010",
+      "user-224",
+      "role-518",
+      "role-467"
+    ]
+  }
+}

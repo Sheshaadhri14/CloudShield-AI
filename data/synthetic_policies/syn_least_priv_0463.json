@@ -1,0 +1,42 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "s3:GetObject",
+          "s3:ListBucket"
+        ],
+        "Resource": [
+          "arn:aws:s3:::app-bucket-0017",
+          "arn:aws:s3:::app-bucket-0017/*"
+        ],
+        "Condition": {
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-exampleorgid11"
+          },
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      },
+      {
+        "Effect": "Deny",
+        "Action": "s3:Delete*",
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "least_privilege_low",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-012",
+      "role-157",
+      "role-575"
+    ]
+  }
+}

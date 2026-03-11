@@ -1,0 +1,33 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:CreateAccessKey"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.3.0.0/16"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-103",
+      "user-578",
+      "role-191",
+      "role-168"
+    ]
+  }
+}

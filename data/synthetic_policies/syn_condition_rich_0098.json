@@ -1,0 +1,31 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:SetDefaultPolicyVersion"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-148",
+      "user-473",
+      "role-498",
+      "role-675"
+    ]
+  }
+}

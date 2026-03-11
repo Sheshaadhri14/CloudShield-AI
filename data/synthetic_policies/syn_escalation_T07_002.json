@@ -1,0 +1,27 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:AttachRolePolicy",
+          "sts:AssumeRole"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T07",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-157",
+      "user-312",
+      "role-169",
+      "role-166"
+    ]
+  }
+}

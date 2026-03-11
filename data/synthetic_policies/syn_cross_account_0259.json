@@ -1,0 +1,31 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "sts:AssumeRole"
+        ],
+        "Resource": "arn:aws:iam::406404042870:role/*",
+        "Condition": {
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-exampleorgid11"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "cross_account_abuse",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-924",
+      "user-618",
+      "role-553",
+      "role-848"
+    ]
+  }
+}

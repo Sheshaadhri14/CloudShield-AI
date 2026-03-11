@@ -1,0 +1,79 @@
+{
+  "results": [
+    {
+      "check": "Dataset size \u2265 5,000",
+      "status": "\u2705 PASS",
+      "detail": "5039 / 5000"
+    },
+    {
+      "check": "Real-world data present",
+      "status": "\u2705 PASS",
+      "detail": "125"
+    },
+    {
+      "check": "Temporal sequences \u2265 500",
+      "status": "\u2705 PASS",
+      "detail": "500"
+    },
+    {
+      "check": "No single label > 50%",
+      "status": "\u2705 PASS",
+      "detail": "{0: '27.9%', 1: '36.9%', 2: '35.2%'}"
+    },
+    {
+      "check": "All labels \u2265 20%",
+      "status": "\u2705 PASS",
+      "detail": "Some labels underrepresented \u2014 consider upsampling"
+    },
+    {
+      "check": "No zero-variance features",
+      "status": "\u26a0\ufe0f  WARN",
+      "detail": "['betweenness_centrality', 'pagerank', 'has_wildcard_resource']"
+    },
+    {
+      "check": "requires_mfa coverage \u2265 10%",
+      "status": "\u2705 PASS",
+      "detail": "16.6%"
+    },
+    {
+      "check": "has_ip_restriction coverage \u2265 10%",
+      "status": "\u2705 PASS",
+      "detail": "19.4%"
+    },
+    {
+      "check": "has_time_restriction coverage \u2265 10%",
+      "status": "\u2705 PASS",
+      "detail": "15.7%"
+    },
+    {
+      "check": "has_org_restriction coverage \u2265 10%",
+      "status": "\u2705 PASS",
+      "detail": "15.8%"
+    },
+    {
+      "check": "attachment_count > 0 in \u2265 50% rows",
+      "status": "\u2705 PASS",
+      "detail": "97.3%"
+    },
+    {
+      "check": "All 21 techniques present",
+      "status": "\u2705 PASS",
+      "detail": "21/21"
+    },
+    {
+      "check": "Drift patterns \u2265 5",
+      "status": "\u2705 PASS",
+      "detail": "['benign_drift', 'attack_escalation', 'remediation', 'ghost_permissions', 'rollback_attack']"
+    },
+    {
+      "check": "Sequences \u2265 500",
+      "status": "\u2705 PASS",
+      "detail": "500"
+    }
+  ],
+  "summary": {
+    "passed": 13,
+    "warned": 1,
+    "failed": 0
+  }
+}

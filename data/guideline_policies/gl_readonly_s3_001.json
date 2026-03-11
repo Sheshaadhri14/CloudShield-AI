@@ -1,0 +1,40 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "S3ReadOnly1",
+        "Effect": "Allow",
+        "Action": [
+          "s3:GetObject",
+          "s3:GetObjectAcl",
+          "s3:ListBucket",
+          "s3:GetBucketLocation"
+        ],
+        "Resource": [
+          "arn:aws:s3:::app-0001-bucket",
+          "arn:aws:s3:::app-0001-bucket/*"
+        ],
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true",
+            "aws:SecureTransport": "true"
+          },
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-example0001"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 0,
+    "description": "Least-privilege read-only for s3",
+    "guideline": "AWS Security Best Practice: Grant Least Privilege",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-004"
+    ]
+  }
+}

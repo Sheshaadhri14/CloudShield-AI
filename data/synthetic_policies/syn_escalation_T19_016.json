@@ -1,0 +1,35 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:Get*",
+          "iam:List*"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Effect": "Allow",
+        "Action": [
+          "lambda:AddPermission",
+          "lambda:InvokeFunction"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T19",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-452",
+      "user-468",
+      "role-001",
+      "role-982"
+    ]
+  }
+}

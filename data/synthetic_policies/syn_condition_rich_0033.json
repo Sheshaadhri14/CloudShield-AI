@@ -1,0 +1,28 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "datapipeline:CreatePipeline",
+          "datapipeline:ActivatePipeline",
+          "iam:PassRole"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-393",
+      "user-020",
+      "role-158",
+      "role-303"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:UpdateAssumeRolePolicy",
+          "sts:AssumeRole"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-039",
+      "user-656",
+      "role-485",
+      "role-811"
+    ]
+  }
+}

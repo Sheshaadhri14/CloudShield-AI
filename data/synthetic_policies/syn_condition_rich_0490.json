@@ -1,0 +1,58 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "s3:GetObject",
+          "s3:ListBucket"
+        ],
+        "Resource": "arn:aws:s3:::app-bucket-0025/*",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.16.0.0/16"
+            ]
+          },
+          "DateGreaterThan": {
+            "aws:CurrentTime": "2024-01-01T00:00:00Z"
+          },
+          "DateLessThan": {
+            "aws:CurrentTime": "2026-12-31T23:59:59Z"
+          },
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          },
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-exampleorgid11"
+          }
+        }
+      },
+      {
+        "Effect": "Deny",
+        "Action": [
+          "iam:Delete*"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-358",
+      "user-574",
+      "role-586",
+      "role-735"
+    ]
+  }
+}

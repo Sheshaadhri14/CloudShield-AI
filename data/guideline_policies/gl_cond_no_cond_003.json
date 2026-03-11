@@ -1,0 +1,29 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "CondTest3",
+        "Effect": "Allow",
+        "Action": [
+          "ec2:DescribeInstances",
+          "ec2:DescribeVpcs",
+          "ec2:DescribeSecurityGroups",
+          "ec2:DescribeSubnets",
+          "ec2:DescribeImages"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 1,
+    "description": "Condition coverage test: no_cond",
+    "guideline": "AWS Security: Use conditions to scope permissions",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-096"
+    ]
+  }
+}

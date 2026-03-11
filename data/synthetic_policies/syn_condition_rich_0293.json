@@ -1,0 +1,45 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "ecs:*"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.111.0.0/16"
+            ]
+          }
+        }
+      },
+      {
+        "Effect": "Deny",
+        "Action": [
+          "iam:Delete*"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-338",
+      "user-349",
+      "role-648",
+      "role-044"
+    ]
+  }
+}

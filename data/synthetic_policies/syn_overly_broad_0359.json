@@ -1,0 +1,29 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "rds:*",
+          "dynamodb:*",
+          "sqs:*",
+          "logs:*"
+        ],
+        "Resource": "arn:aws:s3:::app-bucket-0023/*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "overly_broad_medium",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-667",
+      "user-395",
+      "role-949",
+      "role-435"
+    ]
+  }
+}

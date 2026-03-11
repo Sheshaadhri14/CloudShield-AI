@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "mitre_T1098",
+      "Effect": "Allow",
+      "Action": [
+        "iam:UpdateAccessKey",
+        "iam:CreateAccessKey",
+        "iam:UpdateLoginProfile"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

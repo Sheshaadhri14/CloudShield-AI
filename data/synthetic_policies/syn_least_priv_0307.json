@@ -1,0 +1,33 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "dynamodb:GetItem",
+          "dynamodb:Query"
+        ],
+        "Resource": "arn:aws:dynamodb:us-east-1:354342113419:table/Table10",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.202.0.0/16"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "least_privilege_low",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-045",
+      "role-997",
+      "role-838"
+    ]
+  }
+}

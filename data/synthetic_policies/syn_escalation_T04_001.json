@@ -1,0 +1,26 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:CreateLoginProfile"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T04",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-541",
+      "user-429",
+      "role-990",
+      "role-166"
+    ]
+  }
+}

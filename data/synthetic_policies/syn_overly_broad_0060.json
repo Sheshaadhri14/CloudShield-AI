@@ -1,0 +1,35 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "lambda:*",
+          "dynamodb:*"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Effect": "Deny",
+        "Action": [
+          "iam:DeleteRole",
+          "iam:DeleteUser"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "overly_broad_medium",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-490",
+      "user-756",
+      "role-962",
+      "role-771"
+    ]
+  }
+}

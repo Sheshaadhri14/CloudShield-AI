@@ -1,0 +1,39 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "dynamodb:GetItem",
+          "dynamodb:Query"
+        ],
+        "Resource": "arn:aws:dynamodb:us-east-1:714294294451:table/Table12",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          },
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-exampleorgid11"
+          },
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.38.0.0/16"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "least_privilege_low",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-508",
+      "role-146",
+      "role-191"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "rds:DescribeDBInstances"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-exampleorgid11"
+          },
+          "DateGreaterThan": {
+            "aws:CurrentTime": "2024-01-01T00:00:00Z"
+          },
+          "DateLessThan": {
+            "aws:CurrentTime": "2026-12-31T23:59:59Z"
+          },
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.190.0.0/16"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "least_privilege_low",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-616",
+      "role-448",
+      "role-335"
+    ]
+  }
+}

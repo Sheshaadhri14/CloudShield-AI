@@ -1,0 +1,41 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "dynamodb:GetItem",
+          "dynamodb:Query"
+        ],
+        "Resource": "arn:aws:dynamodb:us-east-1:590573056992:table/Table16",
+        "Condition": {
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-exampleorgid11"
+          },
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.132.0.0/16"
+            ]
+          }
+        }
+      },
+      {
+        "Effect": "Deny",
+        "Action": "dynamodb:Delete*",
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "least_privilege_low",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-768",
+      "role-237",
+      "role-449"
+    ]
+  }
+}

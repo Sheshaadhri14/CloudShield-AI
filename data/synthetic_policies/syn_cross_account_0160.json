@@ -1,0 +1,27 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "sts:AssumeRole",
+          "iam:PassRole"
+        ],
+        "Resource": "arn:aws:iam::150711229823:role/*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "cross_account_abuse",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-458",
+      "user-324",
+      "role-122",
+      "role-510"
+    ]
+  }
+}

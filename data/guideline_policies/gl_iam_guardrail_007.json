@@ -1,0 +1,41 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "AllowIAMRead",
+        "Effect": "Allow",
+        "Action": [
+          "iam:GetUser",
+          "iam:ListRoles",
+          "iam:GetPolicy"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Sid": "DenyPrivilegeEscalation",
+        "Effect": "Deny",
+        "Action": [
+          "iam:CreatePolicyVersion",
+          "iam:SetDefaultPolicyVersion",
+          "iam:AttachUserPolicy",
+          "iam:AttachRolePolicy",
+          "iam:PutUserPolicy",
+          "iam:PutRolePolicy",
+          "iam:CreateAccessKey"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 0,
+    "description": "IAM read with explicit Deny on privilege escalation actions",
+    "guideline": "AWS IAM: Prevent privilege escalation via explicit Deny",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-061"
+    ]
+  }
+}

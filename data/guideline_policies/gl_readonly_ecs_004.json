@@ -1,0 +1,33 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "ECSReadOnly4",
+        "Effect": "Allow",
+        "Action": [
+          "ecs:DescribeTasks",
+          "ecs:ListTasks",
+          "ecs:DescribeClusters",
+          "ecs:ListClusters"
+        ],
+        "Resource": "arn:aws:ecs::516497117841:*",
+        "Condition": {
+          "Bool": {
+            "aws:SecureTransport": "true"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 0,
+    "description": "Least-privilege read-only for ecs",
+    "guideline": "AWS Security Best Practice: Grant Least Privilege",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-098"
+    ]
+  }
+}

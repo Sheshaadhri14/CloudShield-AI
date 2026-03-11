@@ -1,0 +1,37 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "dynamodb:*",
+          "cloudwatch:*",
+          "ec2:*",
+          "lambda:*"
+        ],
+        "Resource": "arn:aws:s3:::app-bucket-0032/*"
+      },
+      {
+        "Effect": "Deny",
+        "Action": [
+          "iam:DeleteRole",
+          "iam:DeleteUser"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "overly_broad_medium",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-431",
+      "user-617",
+      "role-747",
+      "role-833"
+    ]
+  }
+}

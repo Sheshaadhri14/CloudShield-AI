@@ -1,0 +1,24 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": "*",
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "admin_wildcard",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-155",
+      "user-237",
+      "role-393",
+      "role-711"
+    ]
+  }
+}

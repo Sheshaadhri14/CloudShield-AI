@@ -1,0 +1,29 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "rds:*",
+          "logs:*",
+          "sns:*",
+          "ecs:*"
+        ],
+        "Resource": "arn:aws:s3:::app-bucket-0028/*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "overly_broad_medium",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-418",
+      "user-298",
+      "role-876",
+      "role-439"
+    ]
+  }
+}

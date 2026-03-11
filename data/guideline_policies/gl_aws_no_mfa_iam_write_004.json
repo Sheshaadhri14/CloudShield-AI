@@ -1,0 +1,26 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:CreateUser",
+          "iam:DeleteUser",
+          "iam:AttachUserPolicy"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 2,
+    "description": "IAM write without MFA condition",
+    "guideline": "AWS Trusted Advisor / AWS Security Hub finding",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-087"
+    ]
+  }
+}

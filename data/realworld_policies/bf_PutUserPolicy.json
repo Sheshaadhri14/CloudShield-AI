@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "bf_PutUserPolicy",
+      "Effect": "Allow",
+      "Action": [
+        "iam:PutUserPolicy"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

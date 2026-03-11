@@ -1,0 +1,1130 @@
+[
+  {
+    "policy_name": "cg_aws_v1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_v1.json",
+    "source": "cloudgoat",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_v2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_v2.json",
+    "source": "cloudgoat",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_v3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_v3.json",
+    "source": "cloudgoat",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_v4",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_v4.json",
+    "source": "cloudgoat",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_v5",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_v5.json",
+    "source": "cloudgoat",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_0",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_0.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_1.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_2.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_3.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_0",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_0.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_1.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_2.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_3.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_0",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_0.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_1.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_2.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_3.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_4",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_4.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_aws_tf_5",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_aws_tf_5.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "aws",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_codebuild_secrets_tf_0",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_codebuild_secrets_tf_0.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "codebuild_secrets",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_codebuild_secrets_tf_1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_codebuild_secrets_tf_1.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "codebuild_secrets",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_codebuild_secrets_tf_2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_codebuild_secrets_tf_2.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "codebuild_secrets",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_codebuild_secrets_tf_3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_codebuild_secrets_tf_3.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "codebuild_secrets",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_0",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_0.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_1.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_2.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_3.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_detection_evasion_tf_0",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_detection_evasion_tf_0.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "detection_evasion",
+    "risk_label": 2,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_detection_evasion_tf_1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_detection_evasion_tf_1.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "detection_evasion",
+    "risk_label": 2,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_detection_evasion_tf_2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_detection_evasion_tf_2.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "detection_evasion",
+    "risk_label": 2,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_detection_evasion_tf_3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_detection_evasion_tf_3.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "detection_evasion",
+    "risk_label": 2,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_0",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_0.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_1.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_2.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_3.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_iam_privesc_by_rollback_v1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_iam_privesc_by_rollback_v1.json",
+    "source": "cloudgoat",
+    "scenario": "iam_privesc_by_rollback",
+    "risk_label": 2,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_iam_privesc_by_rollback_v2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_iam_privesc_by_rollback_v2.json",
+    "source": "cloudgoat",
+    "scenario": "iam_privesc_by_rollback",
+    "risk_label": 2,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_iam_privesc_by_rollback_v3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_iam_privesc_by_rollback_v3.json",
+    "source": "cloudgoat",
+    "scenario": "iam_privesc_by_rollback",
+    "risk_label": 2,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_iam_privesc_by_rollback_v4",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_iam_privesc_by_rollback_v4.json",
+    "source": "cloudgoat",
+    "scenario": "iam_privesc_by_rollback",
+    "risk_label": 2,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_iam_privesc_by_rollback_v5",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_iam_privesc_by_rollback_v5.json",
+    "source": "cloudgoat",
+    "scenario": "iam_privesc_by_rollback",
+    "risk_label": 2,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_v1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_v1.json",
+    "source": "cloudgoat",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_v2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_v2.json",
+    "source": "cloudgoat",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_v3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_v3.json",
+    "source": "cloudgoat",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_v4",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_v4.json",
+    "source": "cloudgoat",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_v5",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_v5.json",
+    "source": "cloudgoat",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_policies_v1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_policies_v1.json",
+    "source": "cloudgoat",
+    "scenario": "policies",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_policies_v2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_policies_v2.json",
+    "source": "cloudgoat",
+    "scenario": "policies",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_policies_v3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_policies_v3.json",
+    "source": "cloudgoat",
+    "scenario": "policies",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_policies_v4",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_policies_v4.json",
+    "source": "cloudgoat",
+    "scenario": "policies",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_policies_v5",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_policies_v5.json",
+    "source": "cloudgoat",
+    "scenario": "policies",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_rds_snapshot_tf_0",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_rds_snapshot_tf_0.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "rds_snapshot",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_rds_snapshot_tf_1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_rds_snapshot_tf_1.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "rds_snapshot",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_rds_snapshot_tf_2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_rds_snapshot_tf_2.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "rds_snapshot",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_rds_snapshot_tf_3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_rds_snapshot_tf_3.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "rds_snapshot",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_rds_snapshot_tf_4",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_rds_snapshot_tf_4.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "rds_snapshot",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_rds_snapshot_tf_5",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_rds_snapshot_tf_5.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "rds_snapshot",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_0",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_0.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_1.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_2.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_3.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_4",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_4.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "cg_terraform_tf_5",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\cg_terraform_tf_5.json",
+    "source": "cloudgoat_terraform",
+    "scenario": "terraform",
+    "risk_label": 1,
+    "source_type": "real-world-attack"
+  },
+  {
+    "policy_name": "bf_CreatePolicyVersion",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_CreatePolicyVersion.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_SetDefaultPolicyVersion",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_SetDefaultPolicyVersion.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_CreateAccessKey",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_CreateAccessKey.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_CreateLoginProfile",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_CreateLoginProfile.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_UpdateLoginProfile",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_UpdateLoginProfile.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_AttachUserPolicy",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_AttachUserPolicy.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_AttachGroupPolicy",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_AttachGroupPolicy.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_AttachRolePolicy",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_AttachRolePolicy.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PutUserPolicy",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PutUserPolicy.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PutGroupPolicy",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PutGroupPolicy.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PutRolePolicy",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PutRolePolicy.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_AddUserToGroup",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_AddUserToGroup.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_UpdateAssumeRolePolicy",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_UpdateAssumeRolePolicy.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_EC2InstanceProfile",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_EC2InstanceProfile.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_LambdaCreate",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_LambdaCreate.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_LambdaUpdate",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_LambdaUpdate.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_LambdaCfg",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_LambdaCfg.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_EC2UserData",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_EC2UserData.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_CloudFormation",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_CloudFormation.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_DataPipeline",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_DataPipeline.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_Glue",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_Glue.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_SageMaker",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_SageMaker.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_CodeBuild",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_CodeBuild.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_SageMakerTrain",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_SageMakerTrain.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_SageMakerProc",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_SageMakerProc.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_PassRole_ECS",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_PassRole_ECS.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_STS_AssumeRole",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_STS_AssumeRole.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_STS_SAML",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_STS_SAML.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_STS_WebIdentity",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_STS_WebIdentity.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_CodeStar_Create",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_CodeStar_Create.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "bf_CodeStar_Associate",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\bf_CodeStar_Associate.json",
+    "source": "bishopfox_iam_vulnerable",
+    "risk_label": 1,
+    "source_type": "real-world-attack",
+    "reference": "https://github.com/BishopFox/iam-vulnerable"
+  },
+  {
+    "policy_name": "rhino_T1",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T1.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T2",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T2.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T3",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T3.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T4",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T4.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T5",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T5.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T6",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T6.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T7",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T7.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T8",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T8.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T9",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T9.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T10",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T10.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T11",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T11.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T12",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T12.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T13",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T13.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T14",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T14.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T15",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T15.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T16",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T16.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T17",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T17.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T18",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T18.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T19",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T19.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T20",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T20.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_T21",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_T21.json",
+    "source": "rhino_security_labs",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_recon_iam",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_recon_iam.json",
+    "source": "rhino_security_labs",
+    "risk_label": 1,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "rhino_recon_sts",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\rhino_recon_sts.json",
+    "source": "rhino_security_labs",
+    "risk_label": 0,
+    "source_type": "real-world-attack",
+    "reference": "https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/"
+  },
+  {
+    "policy_name": "mitre_T1098",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\mitre_T1098.json",
+    "source": "mitre_attack_cloud",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://attack.mitre.org/matrices/enterprise/cloud/"
+  },
+  {
+    "policy_name": "mitre_T1087",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\mitre_T1087.json",
+    "source": "mitre_attack_cloud",
+    "risk_label": 1,
+    "source_type": "real-world-attack",
+    "reference": "https://attack.mitre.org/matrices/enterprise/cloud/"
+  },
+  {
+    "policy_name": "mitre_T1136",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\mitre_T1136.json",
+    "source": "mitre_attack_cloud",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://attack.mitre.org/matrices/enterprise/cloud/"
+  },
+  {
+    "policy_name": "mitre_T1078",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\mitre_T1078.json",
+    "source": "mitre_attack_cloud",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://attack.mitre.org/matrices/enterprise/cloud/"
+  },
+  {
+    "policy_name": "mitre_T1548",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\mitre_T1548.json",
+    "source": "mitre_attack_cloud",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://attack.mitre.org/matrices/enterprise/cloud/"
+  },
+  {
+    "policy_name": "mitre_T1562",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\mitre_T1562.json",
+    "source": "mitre_attack_cloud",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://attack.mitre.org/matrices/enterprise/cloud/"
+  },
+  {
+    "policy_name": "mitre_T1530",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\mitre_T1530.json",
+    "source": "mitre_attack_cloud",
+    "risk_label": 1,
+    "source_type": "real-world-attack",
+    "reference": "https://attack.mitre.org/matrices/enterprise/cloud/"
+  },
+  {
+    "policy_name": "mitre_T1552",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\mitre_T1552.json",
+    "source": "mitre_attack_cloud",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://attack.mitre.org/matrices/enterprise/cloud/"
+  },
+  {
+    "policy_name": "mitre_T1537",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\mitre_T1537.json",
+    "source": "mitre_attack_cloud",
+    "risk_label": 2,
+    "source_type": "real-world-attack",
+    "reference": "https://attack.mitre.org/matrices/enterprise/cloud/"
+  },
+  {
+    "policy_name": "mitre_T1580",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\mitre_T1580.json",
+    "source": "mitre_attack_cloud",
+    "risk_label": 0,
+    "source_type": "real-world-attack",
+    "reference": "https://attack.mitre.org/matrices/enterprise/cloud/"
+  },
+  {
+    "policy_name": "utw_admin_wildcard",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_admin_wildcard.json",
+    "source": "utwente_academic",
+    "risk_label": 2,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_iam_star",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_iam_star.json",
+    "source": "utwente_academic",
+    "risk_label": 2,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_sts_no_condition",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_sts_no_condition.json",
+    "source": "utwente_academic",
+    "risk_label": 2,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_passrole_star",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_passrole_star.json",
+    "source": "utwente_academic",
+    "risk_label": 2,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_kms_star",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_kms_star.json",
+    "source": "utwente_academic",
+    "risk_label": 2,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_s3_star_all_buckets",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_s3_star_all_buckets.json",
+    "source": "utwente_academic",
+    "risk_label": 1,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_ec2_star",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_ec2_star.json",
+    "source": "utwente_academic",
+    "risk_label": 1,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_lambda_star",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_lambda_star.json",
+    "source": "utwente_academic",
+    "risk_label": 1,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_cloudwatch_no_mfa",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_cloudwatch_no_mfa.json",
+    "source": "utwente_academic",
+    "risk_label": 1,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_iam_list_get",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_iam_list_get.json",
+    "source": "utwente_academic",
+    "risk_label": 1,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_s3_readonly_orgcond",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_s3_readonly_orgcond.json",
+    "source": "utwente_academic",
+    "risk_label": 0,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_dynamo_readonly_mfa",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_dynamo_readonly_mfa.json",
+    "source": "utwente_academic",
+    "risk_label": 0,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_ec2_describeonly",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_ec2_describeonly.json",
+    "source": "utwente_academic",
+    "risk_label": 0,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_cloudwatch_readonly",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_cloudwatch_readonly.json",
+    "source": "utwente_academic",
+    "risk_label": 0,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  },
+  {
+    "policy_name": "utw_deny_delete",
+    "file": "C:\\Users\\SHESHAADHRI\\OneDrive\\Desktop\\PROJECTS\\iam-graph-xai\\data\\realworld_policies\\utw_deny_delete.json",
+    "source": "utwente_academic",
+    "risk_label": 1,
+    "source_type": "real-world-research",
+    "reference": "https://thijsvane.de/research/"
+  }
+]

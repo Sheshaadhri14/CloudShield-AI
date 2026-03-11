@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "bf_PassRole_DataPipeline",
+      "Effect": "Allow",
+      "Action": [
+        "iam:PassRole",
+        "datapipeline:CreatePipeline",
+        "datapipeline:ActivatePipeline"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

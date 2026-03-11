@@ -1,0 +1,45 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "kms:*",
+          "cloudwatch:*",
+          "rds:*"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      },
+      {
+        "Effect": "Deny",
+        "Action": [
+          "iam:Delete*"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-222",
+      "user-601",
+      "role-045",
+      "role-607"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "s3:GetObject",
+          "s3:ListBucket"
+        ],
+        "Resource": "arn:aws:s3:::app-bucket-0032/*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          },
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.247.0.0/16"
+            ]
+          },
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-exampleorgid11"
+          },
+          "DateGreaterThan": {
+            "aws:CurrentTime": "2024-01-01T00:00:00Z"
+          },
+          "DateLessThan": {
+            "aws:CurrentTime": "2026-12-31T23:59:59Z"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-044",
+      "user-611",
+      "role-173",
+      "role-043"
+    ]
+  }
+}

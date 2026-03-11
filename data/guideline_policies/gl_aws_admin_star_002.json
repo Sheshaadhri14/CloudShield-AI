@@ -1,0 +1,22 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": "*",
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 2,
+    "description": "Full admin wildcard \u2014 violates AWS Least Privilege",
+    "guideline": "AWS Trusted Advisor / AWS Security Hub finding",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-007"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "cloudwatch:*",
+          "rds:*",
+          "sns:*"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          },
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-exampleorgid11"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-689",
+      "user-027",
+      "role-422",
+      "role-699"
+    ]
+  }
+}

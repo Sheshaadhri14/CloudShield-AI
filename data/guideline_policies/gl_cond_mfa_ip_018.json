@@ -1,0 +1,37 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "CondTest18",
+        "Effect": "Allow",
+        "Action": [
+          "cloudwatch:GetMetricStatistics",
+          "cloudwatch:ListMetrics",
+          "cloudwatch:DescribeAlarms",
+          "logs:GetLogEvents",
+          "logs:DescribeLogGroups"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          },
+          "IpAddress": {
+            "aws:SourceIp": "10.64.0.0/16"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 0,
+    "description": "Condition coverage test: mfa_ip",
+    "guideline": "AWS Security: Use conditions to scope permissions",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-068"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "ssm:List*",
+          "ssm:Get*",
+          "ssm:Describe*"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "stale_no_condition",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-073",
+      "role-902"
+    ]
+  }
+}

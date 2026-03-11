@@ -1,0 +1,68 @@
+{
+  "snapshots": [
+    {
+      "timestamp": "2024-02-01T00:00:00Z",
+      "version": "v1",
+      "policy": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Action": [
+              "s3:GetObject",
+              "s3:ListBucket",
+              "ec2:DescribeInstances"
+            ],
+            "Resource": "*",
+            "Condition": {
+              "Bool": {
+                "aws:MultiFactorAuthPresent": "true"
+              }
+            }
+          }
+        ]
+      },
+      "risk_label": 0
+    },
+    {
+      "timestamp": "2023-11-03T00:00:00Z",
+      "version": "v2",
+      "policy": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Action": [
+              "*"
+            ],
+            "Resource": "*"
+          }
+        ]
+      },
+      "risk_label": 2
+    },
+    {
+      "timestamp": "2024-02-16T00:00:00Z",
+      "version": "v2-reverted",
+      "policy": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",
+            "Action": [
+              "*"
+            ],
+            "Resource": "*"
+          }
+        ]
+      },
+      "risk_label": 2,
+      "is_rollback_attack": true
+    }
+  ],
+  "metadata": {
+    "sequence_label": 2,
+    "drift_pattern": "rollback_attack",
+    "n_snapshots": 3
+  }
+}

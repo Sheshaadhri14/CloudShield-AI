@@ -1,0 +1,45 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "LAMBDAWrite3",
+        "Effect": "Allow",
+        "Action": [
+          "lambda:UpdateFunctionCode",
+          "lambda:InvokeFunction"
+        ],
+        "Resource": "arn:aws:lambda::516497117841:*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          }
+        }
+      },
+      {
+        "Sid": "DenyNonSSL",
+        "Effect": "Deny",
+        "Action": [
+          "lambda:UpdateFunctionCode",
+          "lambda:InvokeFunction"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:SecureTransport": "false"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 0,
+    "description": "Scoped write for lambda with SSL deny",
+    "guideline": "AWS Well-Architected: Protect data in transit",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-053"
+    ]
+  }
+}

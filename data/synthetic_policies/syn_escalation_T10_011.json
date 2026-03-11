@@ -1,0 +1,26 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:AddUserToGroup"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T10",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-344",
+      "user-292",
+      "role-466",
+      "role-657"
+    ]
+  }
+}

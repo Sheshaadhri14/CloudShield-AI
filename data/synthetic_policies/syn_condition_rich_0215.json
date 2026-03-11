@@ -1,0 +1,37 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "cloudwatch:GetMetricStatistics",
+          "cloudwatch:ListMetrics"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-exampleorgid11"
+          },
+          "IpAddress": {
+            "aws:SourceIp": [
+              "10.27.0.0/16"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "condition_rich",
+    "risk_label": 0,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-451",
+      "user-586",
+      "role-064",
+      "role-383"
+    ]
+  }
+}

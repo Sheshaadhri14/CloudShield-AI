@@ -1,0 +1,44 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "CondTest4",
+        "Effect": "Allow",
+        "Action": [
+          "kms:DescribeKey",
+          "kms:GetKeyPolicy",
+          "kms:ListKeys"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:MultiFactorAuthPresent": "true"
+          },
+          "IpAddress": {
+            "aws:SourceIp": "10.249.0.0/16"
+          },
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-example0001"
+          },
+          "DateGreaterThan": {
+            "aws:CurrentTime": "2025-01-01T09:00:00Z"
+          },
+          "DateLessThan": {
+            "aws:CurrentTime": "2026-12-31T18:00:00Z"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 0,
+    "description": "Condition coverage test: all4",
+    "guideline": "AWS Security: Use conditions to scope permissions",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-068"
+    ]
+  }
+}

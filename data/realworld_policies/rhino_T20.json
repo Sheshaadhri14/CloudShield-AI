@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "rhino_T20",
+      "Effect": "Allow",
+      "Action": [
+        "codebuild:CreateProject",
+        "codebuild:StartBuild",
+        "iam:PassRole"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

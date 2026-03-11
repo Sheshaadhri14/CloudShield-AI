@@ -1,0 +1,26 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:PutUserPolicy"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T08",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-411",
+      "user-053",
+      "role-584",
+      "role-576"
+    ]
+  }
+}

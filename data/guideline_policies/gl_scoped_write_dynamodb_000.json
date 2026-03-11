@@ -1,0 +1,44 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "DYNAMODBWrite0",
+        "Effect": "Allow",
+        "Action": [
+          "dynamodb:PutItem",
+          "dynamodb:UpdateItem",
+          "dynamodb:DeleteItem",
+          "dynamodb:BatchWriteItem"
+        ],
+        "Resource": "arn:aws:dynamodb::229035211740:*"
+      },
+      {
+        "Sid": "DenyNonSSL",
+        "Effect": "Deny",
+        "Action": [
+          "dynamodb:PutItem",
+          "dynamodb:UpdateItem",
+          "dynamodb:DeleteItem",
+          "dynamodb:BatchWriteItem"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:SecureTransport": "false"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 1,
+    "description": "Scoped write for dynamodb with SSL deny",
+    "guideline": "AWS Well-Architected: Protect data in transit",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-082"
+    ]
+  }
+}

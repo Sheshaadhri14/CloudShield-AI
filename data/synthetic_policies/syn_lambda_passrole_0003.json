@@ -1,0 +1,33 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "lambda:CreateFunction",
+          "lambda:InvokeFunction",
+          "lambda:UpdateFunctionCode"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Effect": "Allow",
+        "Action": "iam:PassRole",
+        "Resource": "arn:aws:iam::763595448017:role/role-11"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "lambda_passrole_chain",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-266",
+      "user-192",
+      "role-562",
+      "role-270"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "IAMReadOnly1",
+        "Effect": "Allow",
+        "Action": [
+          "iam:GetUser",
+          "iam:GetRole",
+          "iam:ListRoles",
+          "iam:ListUsers",
+          "iam:ListPolicies",
+          "iam:GetPolicy"
+        ],
+        "Resource": "arn:aws:iam::516894374970:*",
+        "Condition": {
+          "IpAddress": {
+            "aws:SourceIp": "10.175.0.0/16"
+          },
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-example0001"
+          },
+          "Bool": {
+            "aws:SecureTransport": "true"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 0,
+    "description": "Least-privilege read-only for iam",
+    "guideline": "AWS Security Best Practice: Grant Least Privilege",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-066"
+    ]
+  }
+}

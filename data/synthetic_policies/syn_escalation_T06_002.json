@@ -1,0 +1,26 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:AttachUserPolicy"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T06",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-242",
+      "user-798",
+      "role-661",
+      "role-376"
+    ]
+  }
+}

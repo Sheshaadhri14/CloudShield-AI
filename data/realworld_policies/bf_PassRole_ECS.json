@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "bf_PassRole_ECS",
+      "Effect": "Allow",
+      "Action": [
+        "iam:PassRole",
+        "ecs:RegisterTaskDefinition",
+        "ecs:RunTask"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

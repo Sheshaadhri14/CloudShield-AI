@@ -1,0 +1,36 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "ec2:*",
+          "rds:*",
+          "iam:*"
+        ],
+        "Resource": "arn:aws:s3:::app-bucket-0027/*"
+      },
+      {
+        "Effect": "Deny",
+        "Action": [
+          "iam:DeleteRole",
+          "iam:DeleteUser"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "overly_broad_medium",
+    "risk_label": 1,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-724",
+      "user-802",
+      "role-830",
+      "role-106"
+    ]
+  }
+}

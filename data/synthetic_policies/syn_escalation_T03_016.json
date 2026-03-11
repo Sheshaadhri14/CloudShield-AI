@@ -1,0 +1,34 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:Get*",
+          "iam:List*"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:CreateAccessKey"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T03",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-905",
+      "user-540",
+      "role-039",
+      "role-678"
+    ]
+  }
+}

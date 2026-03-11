@@ -1,0 +1,27 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "lambda:UpdateFunctionConfiguration",
+          "iam:PassRole"
+        ],
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "source": "synthetic",
+    "scenario": "iam_escalation_T18",
+    "risk_label": 2,
+    "source_type": "synthetic",
+    "attached_to": [
+      "user-756",
+      "user-603",
+      "role-706",
+      "role-360"
+    ]
+  }
+}

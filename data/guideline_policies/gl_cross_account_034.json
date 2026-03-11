@@ -1,0 +1,26 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "CrossAccountAssumeRole34",
+        "Effect": "Allow",
+        "Action": "sts:AssumeRole",
+        "Principal": {
+          "AWS": "arn:aws:iam::508023814697:root"
+        },
+        "Resource": "*"
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 2,
+    "description": "Cross-account STS AssumeRole NO guard",
+    "guideline": "AWS IAM: Cross-account access with SCP/OrgID guard",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-052"
+    ]
+  }
+}

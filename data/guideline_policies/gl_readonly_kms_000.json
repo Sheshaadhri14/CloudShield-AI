@@ -1,0 +1,38 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "KMSReadOnly0",
+        "Effect": "Allow",
+        "Action": [
+          "kms:DescribeKey",
+          "kms:GetKeyPolicy",
+          "kms:ListKeys"
+        ],
+        "Resource": "arn:aws:kms::209095918079:*",
+        "Condition": {
+          "Bool": {
+            "aws:SecureTransport": "true"
+          },
+          "StringEquals": {
+            "aws:PrincipalOrgID": "o-example0001"
+          },
+          "IpAddress": {
+            "aws:SourceIp": "10.136.0.0/16"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 0,
+    "description": "Least-privilege read-only for kms",
+    "guideline": "AWS Security Best Practice: Grant Least Privilege",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-086"
+    ]
+  }
+}

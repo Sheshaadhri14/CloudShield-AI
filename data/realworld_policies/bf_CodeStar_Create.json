@@ -1,0 +1,14 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "bf_CodeStar_Create",
+      "Effect": "Allow",
+      "Action": [
+        "codestar:CreateProject",
+        "iam:PassRole"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

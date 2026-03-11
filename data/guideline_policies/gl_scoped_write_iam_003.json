@@ -1,0 +1,46 @@
+{
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "IAMWrite3",
+        "Effect": "Allow",
+        "Action": [
+          "iam:CreateUser",
+          "iam:DeleteUser",
+          "iam:UpdateUser",
+          "iam:AttachUserPolicy",
+          "iam:DetachUserPolicy"
+        ],
+        "Resource": "arn:aws:iam::508023814697:*"
+      },
+      {
+        "Sid": "DenyNonSSL",
+        "Effect": "Deny",
+        "Action": [
+          "iam:CreateUser",
+          "iam:DeleteUser",
+          "iam:UpdateUser",
+          "iam:AttachUserPolicy",
+          "iam:DetachUserPolicy"
+        ],
+        "Resource": "*",
+        "Condition": {
+          "Bool": {
+            "aws:SecureTransport": "false"
+          }
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "risk_label": 1,
+    "description": "Scoped write for iam with SSL deny",
+    "guideline": "AWS Well-Architected: Protect data in transit",
+    "source": "aws_guideline_generator",
+    "source_type": "guideline-based",
+    "attached_to": [
+      "role-082"
+    ]
+  }
+}

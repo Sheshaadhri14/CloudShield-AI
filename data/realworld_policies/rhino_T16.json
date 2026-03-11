@@ -1,0 +1,14 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "rhino_T16",
+      "Effect": "Allow",
+      "Action": [
+        "glue:CreateDevEndpoint",
+        "iam:PassRole"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

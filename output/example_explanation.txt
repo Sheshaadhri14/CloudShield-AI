@@ -1,0 +1,29 @@
+======================================================================
+IAM POLICY RISK ANALYSIS: policy:E:\iam-graph-xai\data\aws-iam-managed-policies\data\json\AlexaForBusinessFullAccess\v1\policy
+======================================================================
+
+RISK LEVEL: Low Risk
+Confidence: 100.00%
+
+Probability Distribution:
+  Low Risk:    100.00%
+  Medium Risk: 0.00%
+  High Risk:   N/A (not predicted)
+
+----------------------------------------------------------------------
+KEY RISK FACTORS (SHAP Analysis)
+----------------------------------------------------------------------
+
+1. out_degree = 2.00
+   Impact: increases risk by 0.1817
+
+2. in_degree = 0.00
+   Impact: decreases risk by 0.1817
+
+----------------------------------------------------------------------
+REMEDIATION
+----------------------------------------------------------------------
+
+Policy is already low risk
+
+======================================================================

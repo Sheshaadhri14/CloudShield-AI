@@ -1,0 +1,1558 @@
+[
+  {
+    "name": "gl_readonly_s3_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_s3_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_s3_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_s3_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_s3_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_ec2_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_ec2_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_ec2_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_ec2_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_ec2_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_iam_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_iam_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_iam_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_iam_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_iam_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_lambda_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_lambda_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_lambda_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_lambda_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_lambda_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_dynamodb_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_dynamodb_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_dynamodb_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_dynamodb_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_dynamodb_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_rds_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_rds_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_rds_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_rds_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_rds_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_kms_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_kms_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_kms_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_kms_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_kms_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_sqs_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_sqs_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_sqs_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_sqs_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_sqs_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_cloudwatch_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_cloudwatch_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_cloudwatch_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_cloudwatch_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_cloudwatch_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_secretsmanager_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_secretsmanager_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_secretsmanager_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_secretsmanager_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_secretsmanager_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_ecs_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_ecs_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_ecs_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_ecs_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_readonly_ecs_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_s3_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_s3_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_s3_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_s3_003",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_ec2_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_ec2_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_ec2_002",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_ec2_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_iam_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_iam_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_iam_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_iam_003",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_lambda_000",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_lambda_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_lambda_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_lambda_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_dynamodb_000",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_dynamodb_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_dynamodb_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_dynamodb_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_rds_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_rds_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_rds_002",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_rds_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_kms_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_kms_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_kms_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_kms_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_sqs_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_sqs_001",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_sqs_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_sqs_003",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_cloudwatch_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_cloudwatch_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_cloudwatch_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_cloudwatch_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_secretsmanager_000",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_secretsmanager_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_secretsmanager_002",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_secretsmanager_003",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_scoped_write_ecs_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_ecs_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_ecs_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_scoped_write_ecs_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_005",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_006",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_007",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_008",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_009",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_010",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_011",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_012",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_013",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_014",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_015",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_016",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_017",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_018",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_019",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_020",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_021",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_022",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_023",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_024",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_025",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_026",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_027",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_028",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_029",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_030",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_031",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_032",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_033",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_034",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_035",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_036",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_037",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_038",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_039",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_040",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_041",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_042",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_043",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_044",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_045",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_046",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_cross_account_047",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_048",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cross_account_049",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_005",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_006",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_007",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_008",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_009",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_010",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_011",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_012",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_013",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_014",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_015",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_016",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_017",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_018",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_019",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_020",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_021",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_022",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_023",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_024",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_025",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_026",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_027",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_028",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_029",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_030",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_031",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_032",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_033",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_034",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_035",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_036",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_037",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_038",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_iam_guardrail_039",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_005",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_006",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_007",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_008",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_009",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_010",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_011",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_012",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_013",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_014",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_015",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_016",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_017",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_018",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_019",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_020",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_021",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_022",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_023",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_all4_024",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_000",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_001",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_002",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_003",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_004",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_005",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_006",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_007",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_008",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_009",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_010",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_011",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_012",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_013",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_014",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_015",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_016",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_017",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_018",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_019",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_020",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_021",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_022",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_023",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_mfa_ip_024",
+    "risk_label": 0
+  },
+  {
+    "name": "gl_cond_org_only_000",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_001",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_002",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_003",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_004",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_005",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_006",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_007",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_008",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_009",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_010",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_011",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_012",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_013",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_014",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_015",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_016",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_017",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_018",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_019",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_020",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_021",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_022",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_023",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_org_only_024",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_000",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_001",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_002",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_003",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_004",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_005",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_006",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_007",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_008",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_009",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_010",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_011",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_012",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_013",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_014",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_015",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_016",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_017",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_018",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_019",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_020",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_021",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_022",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_023",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_cond_no_cond_024",
+    "risk_label": 1
+  },
+  {
+    "name": "gl_aws_admin_star_000",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_001",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_002",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_003",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_004",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_005",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_006",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_007",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_008",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_009",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_010",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_011",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_012",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_013",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_014",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_015",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_016",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_017",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_018",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_admin_star_019",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_000",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_001",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_002",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_003",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_004",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_005",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_006",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_007",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_008",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_009",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_010",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_011",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_012",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_013",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_014",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_015",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_016",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_017",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_018",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_iam_star_nobound_019",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_000",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_001",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_002",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_003",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_004",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_005",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_006",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_007",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_008",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_009",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_010",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_011",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_012",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_013",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_014",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_015",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_016",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_017",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_018",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_s3_public_read_019",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_000",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_001",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_002",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_003",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_004",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_005",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_006",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_007",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_008",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_009",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_010",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_011",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_012",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_013",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_014",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_015",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_016",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_017",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_018",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_no_mfa_iam_write_019",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_000",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_001",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_002",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_003",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_004",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_005",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_006",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_007",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_008",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_009",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_010",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_011",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_012",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_013",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_014",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_015",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_016",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_017",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_018",
+    "risk_label": 2
+  },
+  {
+    "name": "gl_aws_cloudtrail_disable_019",
+    "risk_label": 2
+  }
+]
