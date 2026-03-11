@@ -83,7 +83,7 @@ AWS IAM Policies (JSON)
 
 | Metric | Value |
 |---|---|
-| Dataset | 1,247 AWS managed policies |
+| Dataset | 4k+ AWS managed policies |
 | Target Macro F1 | **0.92** |
 | Frameworks | PyTorch Geometric, TensorFlow, Python |
 | Risk categories | Overpermissioned roles, privilege escalation, temporal drift, lateral movement |
